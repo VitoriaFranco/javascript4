@@ -10,10 +10,19 @@
 function josefa(){
 fernanda.value  = parseInt(aranl.value) + parseInt (aran2.value)
 }
-
-
-
-
+function multiplicacao(){
+    fernanda.value = parseInt(aranl.value) * parseInt (aran2.value)
+}
+function divisao(){
+ if(aran2.value == 0){
+    alert("Não pode dividir por zero, anta!");
+    aran1.value = 0;
+ }
+ else{fernanda.value = parseInt(aran1.value) / parseInt (aran2.value);
+}
+}
 </script>
+<h1>calculo de soma:</h1>
+valor 1: <input type="text" id="aran1" value="0"><br>
 </body>
 </html>
